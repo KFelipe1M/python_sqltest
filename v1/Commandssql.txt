@@ -1,0 +1,19 @@
+q1
+Create table info;
+
+q2
+create table info(
+id int (100) primary key,
+nome varchar(100) not null,
+cpf varchar(30)
+);
+
+q3
+truncate info;
+
+insert into info(id,nome,cpf)
+values
+
+('','','');
+
+select * from info;
